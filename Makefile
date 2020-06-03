@@ -18,7 +18,7 @@ OBJS = $(SOURCES_S:.s=.o) $(SOURCES_C:.c=.o)
 
 INCLUDES = -Iapp/inc
 
-DEFINES =
+DEFINES = -DDEV_AKIP_TMC
 #-DQJ -DLOMO -DAPPA
 
 # Compiler/Assembler/Linker/etc
